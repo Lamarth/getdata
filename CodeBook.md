@@ -27,3 +27,5 @@ Space separated mean values for each of the mean and standard deviation measurem
 These mean values are calculated by test subject and by activity.
 
 The original data, from which these subject/activity means are constructed, is documented in *UCI HAR Dataset/README.txt*
+
+All of the measurements were scaled to the range [-1,1] before reaching *run_analysis.R*, meaning that any original units have been lost.
